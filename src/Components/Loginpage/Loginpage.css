@@ -1,0 +1,113 @@
+body {
+    background-color: #FAFAFA;
+}
+
+.Loginpage_main {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.Loginpage_image{
+    width: 450px;
+}
+
+.Loginpage_right {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* height: 350px; */
+    width: 350px;
+    border: 1px solid #DBDBDB;
+    margin-top: 60px;
+    margin-left: -30px;
+    text-align: center;
+    background-color: white;
+}    
+
+.Loginpage_logo{
+    width: 150px;
+}
+
+.Loginpage_loginbox {
+    margin: 15px;
+}
+
+.Loginpage_textbox {
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    width: 250px;
+    height: 36px;
+    margin: 5px;
+    padding-left: 10px;
+    background-color: #FAFAFA;
+}
+
+.Loginpage_button {
+    border-radius: 3px;
+    width: 265px;
+    height: 36px;
+    margin: 3px;
+    border: 1px solid #0395F6;
+    font-weight: bold;
+    background-color: #0395F6;
+    color: white;
+}
+
+.Loginpage_ordiv {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.Loginpage_divider {
+    width: 100px;
+    height: 1px;
+    border: 1px solid #DBDBDB;
+    background-color: #BEBEBE;
+    margin-top: 10px;
+}
+
+.Loginpage_or {
+    margin: 0px 15px;
+    font-weight: bold;
+    color: #BEBEBE;
+}
+
+.Loginpage_fb {
+    height: 13px;
+    margin-right: 5px;
+    margin-bottom: -1px;
+}
+
+.Loginpage_facebookauth {
+    color: #395185;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.Loginpage_forget {
+    color: #395185;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.Loginpage_signupoption {
+    height: 50px;
+    width: 350px;
+    border: 1px solid #DBDBDB;
+    margin-top: 15px;
+    margin-left: -30px;
+    background-color: white;
+    text-align: center;
+}
+
+.Loginpage_signup {
+    margin-top: 14px;
+}
+
+.Loginpage_signin {
+    margin-top: 10px;
+    
+}
