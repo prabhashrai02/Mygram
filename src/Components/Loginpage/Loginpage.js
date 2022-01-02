@@ -31,42 +31,42 @@ class Loginpage extends Component {
                     <Grid item xs={2}>
                     </Grid>
                     <Grid item xs={6}>
-                        <div class="Loginpage_main">
+                        <div className="Loginpage_main">
                             <div>
-                                <img src={mygram_image} class="Loginpage_image" />
+                                <img src={mygram_image} className="Loginpage_image" />
                             </div>
                             <div>
-                                <div class="Loginpage_right">
-                                    <img class="Loginpage_logo" src={mygram_logo} />
-                                    <div class="Loginpage_loginbox">
+                                <div className="Loginpage_right">
+                                    <img className="Loginpage_logo" src={mygram_logo} />
+                                    <div className="Loginpage_loginbox">
 
                                         {
                                             this.state.isLogin ? <Signin /> : <Signup /> 
                                         }
 
-                                        <div class="Loginpage_ordiv">
-                                            <div class="Loginpage_divider"></div>
-                                            <div class="Loginpage_or">OR</div>
-                                            <div class="Loginpage_divider"></div>
+                                        <div className="Loginpage_ordiv">
+                                            <div className="Loginpage_divider"></div>
+                                            <div className="Loginpage_or">OR</div>
+                                            <div className="Loginpage_divider"></div>
                                         </div>
 
-                                        <div class="Loginpage_facebookauth"> 
-                                            <img class="Loginpage_fb" src={google} />Login with Google</div>
-                                        <div class="Loginpage_forget">Forget Password?</div>
+                                        <div className="Loginpage_facebookauth"> 
+                                            <img className="Loginpage_fb" src={google} />Login with Google</div>
+                                        <div className="Loginpage_forget">Forget Password?</div>
                                     </div>
                                 </div>
 
-                                <div class="Loginpage_signupoption">
+                                <div className="Loginpage_signupoption">
                                     {
                                         this.state.isLogin ? 
-                                        <div class="Loginpage_signup">
+                                        <div className="Loginpage_signup">
                                             Don't have an account? 
-                                            <span onClick={this.changeLogin} style={{"margin-left":"5px", "font-weight":"bold", "color":"#0395F6"}}>Sign up</span>
+                                            <span onClick={this.changeLogin} style={{"marginLeft":"5px", "fontWeight":"bold", "color":"#0395F6"}}>Sign up</span>
                                         </div> 
                                         :
-                                        <div class="Loginpage_signin">
+                                        <div className="Loginpage_signin">
                                             Have an account? 
-                                            <span onClick={this.changeLogin} style={{"margin-left":"5px", "font-weight":"bold", "color":"#0395F6"}}>Sign in</span>
+                                            <span onClick={this.changeLogin} style={{"marginLeft":"5px", "fontWeight":"bold", "color":"#0395F6"}}>Sign in</span>
                                         </div>
                                     }
                                 </div>                             

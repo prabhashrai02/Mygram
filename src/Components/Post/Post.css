@@ -1,0 +1,53 @@
+.Post_container {
+    width: 550px;
+    margin: 20px;
+    border: 1px solid #DADADA;
+    background-color: white;    
+    text-align: left;
+}
+
+.Post_header {
+    height: 60px;
+    border-bottom: 1px solid #DADADA;
+    display: flex;   
+}
+
+.Post_image {
+    min-width: 30px;
+    min-height: 30px;
+    margin: 10px;
+    position: static;
+}
+
+.Post_username {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.Post_analysis {
+    display: flex;
+    padding: 10px;
+}
+
+.Post_reactimage {
+    height: 35px;
+    width: 35px;
+}
+
+.Post_likecnt {
+    margin-top: -15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+.Post_comment {
+    margin: 10px;
+}
+
+.Post_addcomment {
+    width: 537px;
+    height: 40px;
+    border: 1px solid #DADADA;
+    font-size: 16px;
+    padding-left: 10px;
+}

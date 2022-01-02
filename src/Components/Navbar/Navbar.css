@@ -1,0 +1,27 @@
+.Navbar_content {
+    height: 45px;
+    background-color: white;
+    border: 1px solid #DBDBDB;
+    position: fixed;
+    margin-top: -1px;
+    z-index: 1;
+}
+
+.Navbar_logo {
+    padding-top: 5px;
+    width: 150px;
+}
+
+.Navbar_search {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -100px;
+    height: 28px;
+    width: 200px;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+}
+
+.Navbar_funcimage {
+    margin: 10px 6px;
+}
