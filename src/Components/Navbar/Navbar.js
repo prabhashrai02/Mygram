@@ -3,7 +3,6 @@ import "./Navbar.css";
 import Grid from '@material-ui/core/Grid';
 import mygram_logo from '../../images/mygram_logo.png'
 import home from '../../images/home.svg'
-import message from '../../images/message.svg'
 import find from '../../images/find.svg'
 import react from '../../images/react.svg'
 import Avatar from '@material-ui/core/Avatar';
