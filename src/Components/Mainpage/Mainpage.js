@@ -22,34 +22,6 @@ class Mainpage extends Component {
                 "postimage": "https://m.media-amazon.com/images/I/615M3RtSQPL._AC_SX466_.jpg",
                 "timestamp": "3151",
                 "likes": "24543"
-            },
-            {
-                "postid": "21132",
-                "username": "sdkmg",
-                "postimage": "https://m.media-amazon.com/images/I/615M3RtSQPL._AC_SX466_.jpg",
-                "timestamp": "3151",
-                "likes": "24543"
-            },
-            {
-                "postid": "21132",
-                "username": "sdkmg",
-                "postimage": "https://m.media-amazon.com/images/I/615M3RtSQPL._AC_SX466_.jpg",
-                "timestamp": "3151",
-                "likes": "24543"
-            },
-            {
-                "postid": "21132",
-                "username": "sdkmg",
-                "postimage": "https://m.media-amazon.com/images/I/615M3RtSQPL._AC_SX466_.jpg",
-                "timestamp": "3151",
-                "likes": "24543"
-            },
-            {
-                "postid": "21132",
-                "username": "sdkmg",
-                "postimage": "https://i.redd.it/c23wstk4w3t61.jpg",
-                "timestamp": "3151",
-                "likes": "24543"
             }
         ]
         

@@ -41,13 +41,13 @@ class Post extends Component {
                     </div>
 
                     {/* Post */}
-                    <img src={this.props.postimage} width="550px"/>
+                    <img alt="" src={this.props.postimage} width="550px"/>
 
                     {/* Analysis */}
                     <div className="Post_analysis">
-                        <img src={love} className="Post_reactimage" />
-                        <img src={comment} className="Post_reactimage" />
-                        <img src={share} className="Post_reactimage" />
+                        <img alt="" src={love} className="Post_reactimage" />
+                        <img alt="" src={comment} className="Post_reactimage" />
+                        <img alt="" src={share} className="Post_reactimage" />
                     </div>
 
                     {/* Likes */}
